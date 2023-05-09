@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement{
+    repositories{
+        maven { url "https://jitpack.io" }
+        mavenCentral()
+    }
+}
+rootProject.name = "Kotlin Test Project"
+include ':app'
